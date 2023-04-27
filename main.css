@@ -1,0 +1,9 @@
+@import url('nav.css');
+@import url('prodlist.css');
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  font-family: 'Lexend Deca', sans-serif;}
+
+main{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}

@@ -1,0 +1,189 @@
+@import url('fonts.css');
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+.clearfix {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.innerWrapper {
+	max-width: 920px;
+	margin: 2 auto;
+}
+
+.hero .innerWrapper h1{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 500;
+}
+
+.hero .innerWrapper h1 .special-text{
+	font-weight: bolder;
+	font-family: 'Lexend Deca', sans-serif;
+	color: rgb(53, 31, 6);
+}
+
+.hero .innerWrapper h3{
+	margin-top: 3rem;
+	font-family: 'Homemade Apple', cursive;
+	font-weight: lighter;
+}
+
+h2, h4 {
+	font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+	/* padding-top: 100px; */
+	margin: 0 0 30px 0;
+}
+
+/* NAV SECTION */
+.mainNav .nav-brand{
+	padding: 25px 25px;
+	width: 40%;
+}
+.mainNav.clearfix .nav-brand .companyName {
+	margin: 0 !important;
+	color: rgb(53, 31, 6);
+	width: 100%;
+	/* background: rgba(0,0,0,0.7); */
+	font-family: 'Lexend Deca', sans-serif;
+  	font-weight: 800;
+	font-size: 1.8rem;
+	text-align: center;
+	text-transform: uppercase;
+  	font-variant: small-caps;
+}
+
+nav {
+	padding: 0;
+	margin: 0;
+	width: 55%;
+	float: right;
+}
+
+
+header nav ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: 90%;
+	/* border-right: 20px solid rgba(0,0,0,0.7); */
+}
+
+header nav ul li {
+	float: left;
+	margin: 0;
+	display: inline;
+	width: 15%;
+	text-align: center;
+	/* background: rgba(0,0,0,0.7); */
+}
+
+header nav ul li:hover {
+	background: none;
+  	font-style: bold;
+  	transform: scale(1.2);
+}
+
+header nav ul li a {
+	text-decoration: none;
+	padding: 25px 20px;
+	color: rgb(0, 0, 0);
+	margin: 0;
+	display: inline-block;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 1.25rem;
+	font-weight: 800;
+}
+
+header nav ul li a:focus {
+	outline: none;
+}
+
+.mainNav.clearfix #action-buttons{
+	display: flex;
+	justify-content: center;
+}
+
+.mainNav.clearfix #action-buttons .btn{
+	padding: 10px;
+	width: 100px;
+	border-radius: 30px;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.mainNav.clearfix #action-buttons .btn.signup{
+	background: #fff;
+}
+.mainNav.clearfix #action-buttons .btn.login{
+	color: #fff;
+}
+
+/* HEAD SECTION */
+
+body{
+	background-color: antiquewhite;
+	padding: 5rem;
+}
+
+header {
+	border-radius: 50px;
+	background: url(images/bg.jpg);
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+
+section.hero{
+	
+	/* background-attachment: ; */
+}
+
+.hero {
+	text-align: center;
+	text-shadow: 1px 0 2px #595859;
+}
+
+.hero h1 {
+	font-size: 5.5rem;
+	margin:0;
+	padding-top: 200px;
+	font-family: 'Abril Fatface', serif;
+	color: #fff;
+}
+
+.hero h3 {
+	padding-bottom: 250px;
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	color: #fff;
+	font-size: 1.7rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+
+
+@media (max-width:900px) {
+  .companyName {
+    width: 100%;
+    text-align: center;
+    padding: 4% 4%;
+  }
+  
+ .mainNav {
+    width: 100%;
+  }
+  
+  header nav ul {
+    border: none;
+  }
+  
+  header nav ul li a {
+    padding: 25px 2%;
+  }
+}

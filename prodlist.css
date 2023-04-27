@@ -1,0 +1,20 @@
+.input-group{
+    width: 30%;
+}
+
+.input-group input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.input-group .input-group-text{
+    background: rgb(53, 31, 6) !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.input-group .input-group-text::after{
+    content: '\f002';
+    font-family: "FontAwesome";
+    color: #fff;
+}
